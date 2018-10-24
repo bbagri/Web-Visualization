@@ -1,0 +1,57 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+     color: rgb(14, 187, 181);
+     background-color: rgb(255, 255, 255);
+     font-family: times new roman;
+     font-weight: bold;
+}
+
+h3 {
+     color: rgb(14, 187, 181);
+     background-color: rgb(255, 255, 255);
+     font-family: times new roman;
+     font-weight: bold;
+}
+
+img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+p {
+   color: rgb(124, 122, 122);
+   font-family: calibri;
+   font-size: 12
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+         padding-left: 100px;
+}
+
+.navbar-brand {
+               background-color: rgb(14, 187, 181);
+               font-family: times new roman;
+               font-weight: bold;
+               color: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    background-color: rgb(14, 187, 181);
+}
+
+  .navbar-brand {
+                 background-color: rgb(255, 255, 255);
+                 font-family: times new roman;
+                 font-weight: bold;
+                 color: rgb(14, 187, 181);
+}
